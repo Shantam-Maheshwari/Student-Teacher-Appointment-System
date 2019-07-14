@@ -1,0 +1,16 @@
+1. extract eclipse.zip file to desktop
+2. open eclipse.exe
+3. click File> new Project > Java Project
+4. Fill Project name as "Demo" and click Finish
+5. Right click the project name in Package explorer and click build path and then add external archives
+6. Select ojdbc7.jar inside jdbc folder and click open
+7. Now right click src folder and click new class
+8. Enter name as "DemoMain"
+9. Tick public static void main(String args[])
+10. Click Finish
+11. Now copy the contents of "DemoMain.java" available on the google drive to DemoMain.java inside eclipse
+12. Enter the correct database username and password in line number 63
+13. Save the file 
+14. Right click Demo folder and select run as java application
+15. If it prompts for the class name select "DemoMain"
+16. Click on the GetDetails button and you should see the list of instructors.
